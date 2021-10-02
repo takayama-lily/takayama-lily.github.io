@@ -22,26 +22,26 @@ body:
         - [x] 我已知晓并同意，此处仅用于汇报程序中存在的问题。若这个 Issue 是关于其他非程序本身问题或是新功能需求，则我的 Issue 可能会被无条件自动关闭和锁定。（这些问题应当在 Discussion 板块提出。）
         --------
   - type: input
+    id: 1
     attributes:
       label: go-cqhttp版本
-      id: 1
   - type: input
+    id: 2
     attributes:
       label: 运行环境
-      id: 2
   - type: dropdown
+    id: 3
     attributes:
       label: 连接方式
-      id: 3
       options:
         - http
         - 正向ws
         - 反向ws
         - 长轮询
   - type: dropdown
+    id: 4
     attributes:
       label: 使用协议
-      id: 4
       options:
         - 安卓手机
         - 安卓手表
@@ -49,10 +49,14 @@ body:
         - iPad
         - 企点
   - type: textarea
+    id: 5
     attributes:
       label: bug内容
-      id: 5
   - type: textarea
+    id: 6
     attributes:
       label: 复现方法
-      id: 6
+  - type: textarea
+    id: 7
+    attributes:
+      label: 详细日志
