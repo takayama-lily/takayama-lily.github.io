@@ -14,39 +14,40 @@ body:
         注: 如果您不知道如何有效、精准地表述，我们建议您先阅读《提问的智慧》
         (链接: https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md)
 
-        请确保您已经仔细阅读此教程，并勾选下方的确认框。(将 [ ] 修改为 [x])
+        请确保您已经仔细阅读此教程，并勾选下方的确认框。
         --------
-        - [ ] 我已经仔细阅读上述教程和"提问前需知 [图+文]": https://github.com/Mrs4s/go-cqhttp/issues/633
-        - [ ] 我已知晓并同意，如果我不遵循以下格式提交 Issue，或者我使用的并非最新版本，或者我没有提供足够的环境信息，则我的 Issue 可能会被无条件自动关闭和锁定。
-        - [ ] 我已知晓并同意，我仅需要把选项前的 [ ] 替换为 [x]。如果我删除、修改这些复选框的其他部分，或是在 x 之前或之后留了空格，则我的 Issue 可能会被无条件自动关闭和锁定。
-        - [ ] 我已知晓并同意，此处仅用于汇报程序中存在的问题。若这个 Issue 是关于其他非程序本身问题或是新功能需求，则我的 Issue 可能会被无条件自动关闭和锁定。（这些问题应当在 Discussion 板块提出。）
+        - [x] 我已经仔细阅读上述教程和"提问前需知 [图+文]": https://github.com/Mrs4s/go-cqhttp/issues/633
+        - [x] 我已知晓并同意，如果我不遵循以下格式提交 Issue，或者我使用的并非最新版本，或者我没有提供足够的环境信息，则我的 Issue 可能会被无条件自动关闭和锁定。
+        - [x] 我已知晓并同意，我仅需要把选项前的 [ ] 替换为 [x]。如果我删除、修改这些复选框的其他部分，或是在 x 之前或之后留了空格，则我的 Issue 可能会被无条件自动关闭和锁定。
+        - [x] 我已知晓并同意，此处仅用于汇报程序中存在的问题。若这个 Issue 是关于其他非程序本身问题或是新功能需求，则我的 Issue 可能会被无条件自动关闭和锁定。（这些问题应当在 Discussion 板块提出。）
         --------
         
   - type: input
     attributes:
-      label: Node.js Version
-      description: Output of `node -v`
+      label: go-cqhttp版本
   - type: input
     attributes:
-      label: Package Version
-      description: Installed by npm or yarn
-      placeholder: latest?
+      label: 运行环境
   - type: dropdown
     attributes:
-      label: Login Protocol
+      label: 连接方式
       options:
-        - Android
-        - aPad
-        - Watch
+        - http
+        - 正向ws
+        - 反向ws
+        - 长轮询
+  - type: dropdown
+    attributes:
+      label: 使用协议
+      options:
+        - 安卓手机
+        - 安卓手表
         - iMac
         - iPad
-  - type: markdown
-    attributes:
-      value: |
-        * [ ] 我已确认过官方客户端不存在此问题，库的行为存在问题。
+        - 企点
   - type: textarea
     attributes:
-      label: Bug Description
+      label: bug内容
   - type: textarea
     attributes:
-      label: Log Details
+      label: 复现方法
