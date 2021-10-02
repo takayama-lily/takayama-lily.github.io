@@ -32,4 +32,4 @@ body:
       label: Bug Description
   - type: textarea
     attributes:
-      label: Logs Detail
+      label: Log Details
