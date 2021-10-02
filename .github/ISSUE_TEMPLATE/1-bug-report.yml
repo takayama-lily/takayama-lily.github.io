@@ -24,12 +24,15 @@ body:
   - type: input
     attributes:
       label: go-cqhttp版本
+      id: 1
   - type: input
     attributes:
       label: 运行环境
+      id: 2
   - type: dropdown
     attributes:
       label: 连接方式
+      id: 3
       options:
         - http
         - 正向ws
@@ -38,6 +41,7 @@ body:
   - type: dropdown
     attributes:
       label: 使用协议
+      id: 4
       options:
         - 安卓手机
         - 安卓手表
@@ -47,6 +51,8 @@ body:
   - type: textarea
     attributes:
       label: bug内容
+      id: 5
   - type: textarea
     attributes:
       label: 复现方法
+      id: 6
