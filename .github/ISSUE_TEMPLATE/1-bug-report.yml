@@ -1,0 +1,24 @@
+name: "Report Bugs"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请提供以下信息
+  - type: input
+    attributes:
+      label: Node.js Version
+      description: Output of `node -v`
+  - type: input
+    attributes:
+      label: Package Version
+      description: Installed by npm or yarn (latest?)
+  - type: input
+    attributes:
+      label: Platform(protocol)
+      description: Android|aPad|Watch|iMac|iPad
+  - type: textarea
+    attributes:
+      label: Bug Description
+  - type: textarea
+    attributes:
+      label: Detail Logs
