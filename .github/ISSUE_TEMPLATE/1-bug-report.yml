@@ -1,4 +1,4 @@
-name: Report Bugs
+name: Bug Report
 description: Create a report to help us improve
 body: 
   - type: markdown
@@ -16,16 +16,19 @@ body:
       placeholder: latest?
   - type: dropdown
     attributes:
-      label: Login Protocol(Platform)
+      label: Login Protocol
       options:
         - Android
         - aPad
         - Watch
         - iMac
         - iPad
+  - type: checkbox
+    attributes:
+      label: 我已确认过官方客户端不存在此问题，库的行为存在问题。
   - type: textarea
     attributes:
       label: Bug Description
   - type: textarea
     attributes:
-      label: Detail Logs
+      label: Logs Detail
