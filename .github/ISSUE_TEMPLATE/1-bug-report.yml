@@ -14,10 +14,15 @@ body:
       label: Package Version
       description: Installed by npm or yarn
       placeholder: latest?
-  - type: radio
+  - type: dropdown
     attributes:
       label: Login Protocol(Platform)
-      description: Android
+      options:
+        - Android
+        - aPad
+        - Watch
+        - iMac
+        - iPad
   - type: textarea
     attributes:
       label: Bug Description
