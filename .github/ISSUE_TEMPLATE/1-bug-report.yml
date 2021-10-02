@@ -23,9 +23,9 @@ body:
         - Watch
         - iMac
         - iPad
-  - type: checkbox
+  - type: markdown
     attributes:
-      label: 我已确认过官方客户端不存在此问题，库的行为存在问题。
+      value: * [ ] 我已确认过官方客户端不存在此问题，库的行为存在问题。
   - type: textarea
     attributes:
       label: Bug Description
