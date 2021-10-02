@@ -26,7 +26,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        * [x] 我已确认过官方客户端不存在此问题，库的行为存在问题。
+        * [ ] 我已确认过官方客户端不存在此问题，库的行为存在问题。
   - type: textarea
     attributes:
       label: Bug Description
