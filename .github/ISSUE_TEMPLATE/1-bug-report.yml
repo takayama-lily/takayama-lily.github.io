@@ -3,8 +3,7 @@ description: 遇到了bug? 你可以在这里开始汇报（仅限软件本体�
 body: 
   - type: markdown
     attributes:
-      value: |
-        在您发布此Issue前, 请您花一点时间查看下面几条指引🔽
+      value: 在您发布此Issue前, 请您花一点时间查看下面几条指引🔽
 
         1: ❗ | 确定没有相同问题的ISSUE已被提出. (教程: https://github.com/Mrs4s/go-cqhttp/issues/633)
         2: 🌎| 请准确填写环境信息.
