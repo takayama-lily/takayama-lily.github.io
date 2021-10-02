@@ -1,5 +1,5 @@
-name: "Report Bugs"
-body:
+name: Report Bugs
+body: description: Create a report to help us improve
   - type: markdown
     attributes:
       value: |
