@@ -24,3 +24,29 @@ body:
   - type: input
     attributes:
       label: go-cqhttp版本
+  - type: input
+    attributes:
+      label: 运行环境
+  - type: dropdown
+    attributes:
+      label: 连接方式
+      options:
+        - http
+        - 正向ws
+        - 反向ws
+        - 长轮询
+  - type: dropdown
+    attributes:
+      label: 使用协议
+      options:
+        - 安卓手机
+        - 安卓手表
+        - iMac
+        - iPad
+        - 企点
+  - type: textarea
+    attributes:
+      label: bug内容
+  - type: textarea
+    attributes:
+      label: 复现方法
